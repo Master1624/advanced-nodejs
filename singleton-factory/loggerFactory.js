@@ -16,7 +16,7 @@ class ConsoleLogger {
 }
 
 class FileLogger {
-  constructor(filePath = path.join(__dirname, "public/logs.txt")) {
+  constructor(filePath = path.join(__dirname, "../public/logs.txt")) {
     this.logger = loggerInstance;
     this.filePath = filePath;
   }
